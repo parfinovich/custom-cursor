@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	height: 100vh;
 	background: #f9f9f9;
-	cursor: none; /* скрываем стандартный курсор */
+	cursor: none;
 	overflow: hidden;
 }
 
