@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background: #f9f9f9;
+	cursor: none; /* скрываем стандартный курсор */
+	overflow: hidden;
+}
+
+.custom-cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	border: 2px solid rgba(0, 0, 0, 0.6);
+	border-radius: 50%;
+	pointer-events: none;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	transition: transform 0.05s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-cursor .dot {
+	width: 4px;
+	height: 4px;
+	background-color: #000;
+	border-radius: 50%;
+}
